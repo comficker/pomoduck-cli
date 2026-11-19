@@ -1,0 +1,72 @@
+{
+  "$comment": "Focus/break interval techniques. Data: CC BY 4.0 — credit \"PomoDuck (https://www.pomoduck.com)\". Each entry links to the matching free web timer.",
+  "source": "https://www.pomoduck.com",
+  "techniques": [
+    {
+      "id": "pomodoro",
+      "name": "Classic Pomodoro",
+      "focus": 25,
+      "short_break": 5,
+      "long_break": 15,
+      "rounds_before_long_break": 4,
+      "origin": "Francesco Cirillo, late 1980s; named after a tomato-shaped kitchen timer.",
+      "good_for": "Most desk work, getting started on a task you are avoiding.",
+      "pomoduck": "https://www.pomoduck.com/timer/25-minutes"
+    },
+    {
+      "id": "short",
+      "name": "Short sprint (10/2)",
+      "focus": 10,
+      "short_break": 2,
+      "long_break": 10,
+      "rounds_before_long_break": 4,
+      "origin": "Common low-barrier variant of the Pomodoro method.",
+      "good_for": "Low energy, ADHD-friendly starts, chores, warming up before a longer block.",
+      "pomoduck": "https://www.pomoduck.com/timer/10-minutes"
+    },
+    {
+      "id": "deep",
+      "name": "Deep work (50/10)",
+      "focus": 50,
+      "short_break": 10,
+      "long_break": 30,
+      "rounds_before_long_break": 3,
+      "origin": "Popular longer-block variant for tasks that need warm-up time.",
+      "good_for": "Writing, coding, studying dense material.",
+      "pomoduck": "https://www.pomoduck.com/timer/50-minutes"
+    },
+    {
+      "id": "52-17",
+      "name": "52/17",
+      "focus": 52,
+      "short_break": 17,
+      "long_break": 17,
+      "rounds_before_long_break": 1,
+      "origin": "Ratio reported by DeskTime (2014) from the habits of its most productive users.",
+      "good_for": "Knowledge work with long, fully offline breaks.",
+      "pomoduck": "https://www.pomoduck.com/timer/50-minutes"
+    },
+    {
+      "id": "ultradian",
+      "name": "Ultradian block (90/20)",
+      "focus": 90,
+      "short_break": 20,
+      "long_break": 20,
+      "rounds_before_long_break": 1,
+      "origin": "Based on the ~90-minute basic rest-activity cycle described by Nathaniel Kleitman.",
+      "good_for": "One or two big creative blocks per day.",
+      "pomoduck": "https://www.pomoduck.com/timer/90-minutes"
+    },
+    {
+      "id": "study",
+      "name": "Study block (45/15)",
+      "focus": 45,
+      "short_break": 15,
+      "long_break": 30,
+      "rounds_before_long_break": 3,
+      "origin": "Common revision schedule matching a typical class period.",
+      "good_for": "Exam revision, reading, problem sets.",
+      "pomoduck": "https://www.pomoduck.com/lp/study-timer"
+    }
+  ]
+}

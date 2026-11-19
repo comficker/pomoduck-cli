@@ -1,0 +1,40 @@
+{
+  "name": "pomoduck",
+  "version": "0.1.0",
+  "description": "Pomodoro timer for the terminal and an MCP server for AI agents. Zero dependencies.",
+  "type": "module",
+  "bin": {
+    "pomoduck": "bin/pomoduck.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "data",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "homepage": "https://www.pomoduck.com",
+  "license": "MIT",
+  "keywords": [
+    "pomodoro",
+    "pomodoro-timer",
+    "focus-timer",
+    "productivity",
+    "cli",
+    "mcp",
+    "mcp-server",
+    "timer",
+    "time-management"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comficker/pomoduck-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/comficker/pomoduck-cli/issues"
+  },
+  "mcpName": "io.github.comficker/pomoduck"
+}

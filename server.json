@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.comficker/pomoduck",
+  "description": "Pomodoro timer for AI agents: start, check and log focus sessions, plan rounds.",
+  "repository": { "url": "https://github.com/comficker/pomoduck-cli", "source": "github" },
+  "websiteUrl": "https://www.pomoduck.com",
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "pomoduck",
+      "version": "0.1.0",
+      "transport": { "type": "stdio" },
+      "packageArguments": [{ "type": "positional", "value": "mcp" }]
+    }
+  ]
+}
